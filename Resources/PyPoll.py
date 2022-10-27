@@ -48,26 +48,26 @@ with open(file_to_load) as election_data:
 
 # Using the open () function with the "w" mode we will write data to this file. 
 
-open(file_to_save, "w")
+###open(file_to_save, "w")
 
 # Create a filename variable to a direct or indirect path to the file. 
 
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+###file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 # Use the open statement to open the file as a text file. 
 
-with open(file_to_save, "w") as txt_file:
+###with open(file_to_save, "w") as txt_file:
 
     # Write some data to the file. 
 
-    txt_file.write("Hello World") 
+    ###txt_file.write("Hello World") 
 
 # Write three counties to the file. 
  
-    txt_file.write("Arapahoe, ") 
+    ###txt_file.write("Arapahoe, ") 
 
-    txt_file.write("Denver, ") 
+    ###txt_file.write("Denver, ") 
 
-    txt_file.write("Jefferson, ") 
+    ###txt_file.write("Jefferson, ") 
 
 
